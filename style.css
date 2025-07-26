@@ -1,0 +1,27 @@
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#game-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: crosshair;
+}
+
+
+
+#ui {
+    margin-top: 20px;
+}
